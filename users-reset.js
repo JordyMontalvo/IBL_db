@@ -1,12 +1,12 @@
 const db = require('./db')
 
-const { Users } = db
+const { User } = db
 
 
 async function main() {
-  await Users.deleteMany({})
+  await User.deleteMany({})
 
-  await Users.insert({
+  await User.insert({
     "id": "5f0e0b67af92089b5866bcd0",
     "date": new Date("2024-01-01T14:38:24.300Z"),
     "name": "IBL",
