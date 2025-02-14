@@ -1,3 +1,15 @@
+mongodump --forceTableScan --uri mongodb+srv://admin:ibl2025@ibl.1bkpd.mongodb.net
+
+mongorestore
+
+
+
+
+
+
+
+
+
 mongodump --forceTableScan --uri mongodb+srv://admin:sifrah2024@sifrah.erm27to.mongodb.net/sifrah
 
 mongorestore
